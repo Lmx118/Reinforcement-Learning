@@ -44,7 +44,8 @@
 | **正则化策略**   | 空间Dropout(rate=0.5) + 标签平滑(label_smoothing=0.1)                    | 验证集准确率提升8.2%              |
 | **损失函数**     | Focal Loss(γ=2, α=0.25)                                                  | 难样本识别准确率提升15.7%         |
 
-####### 算法对比
+
+###### 算法对比
 ```python
 # 动态学习率配置示例
 lr_schedule = tf.keras.optimizers.schedules.ExponentialDecay(
